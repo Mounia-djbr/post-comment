@@ -1,0 +1,173 @@
+/* Reset default margins and paddings 
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9ebee;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #1877f2;
+}
+
+.post-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#post-content {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #e9ebee;
+  border-radius: 4px;
+  resize: none;
+  font-size: 14px;
+}
+
+#post-button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.post {
+  background-color: white;
+  border: 1px solid #e9ebee;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* ... (previous CSS code) ... 
+.header {
+  position: relative;
+}
+
+.header-image {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-top: 10px;
+}*/
+
+
+/* Adjustments for responsiveness 
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .post {
+    padding: 10px;
+  }
+}
+*/
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.publication {
+  width: 600px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.post-image {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.comment-section {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.comment-input {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.comment-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment {
+  margin-top: 10px;
+  padding: 5px 0;
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-text {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.delete-button {
+  color: #d9534f;
+  cursor: pointer;
+}
+
+/* Adjustments for responsiveness */
+@media screen and (max-width: 768px) {
+  .publication {
+    width: 90%;
+  }
+}
